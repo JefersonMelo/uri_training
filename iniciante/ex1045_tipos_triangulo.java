@@ -38,19 +38,19 @@ public class ex1045_tipos_triangulo {
 		if (A >= (B + C)) {
 			System.out.println("NAO FORMA TRIANGULO");
 		}
-		else if ((A2) == (B2 + C2)) {
+		if ((A2) == (B2 + C2)) {
 			System.out.println("TRIANGULO RETANGULO");
 		}
-		else if ((A2) > (B2 + C2)) {
+		if ((A2) > (B2 + C2)) {
 			System.out.println("TRIANGULO OBTUSANGULO");
 		}
-		else if ((A2) < (B2 + C2)) {
+		if ((A2) < (B2 + C2)) {
 			System.out.println("TRIANGULO ACUTANGULO");
 		}
-		else if ((A == B) & (B == C)) {
+		if ((A == B) & (B == C)) {
 			System.out.println("TRIANGULO EQUILATERO");
 		}
-		else if ((B == C)) {
+		if ((B == C)) {
 			System.out.println("TRIANGULO ISOSCELES");
 		}
 // EXERCICIO INCOMPLETO - FALHANDO
